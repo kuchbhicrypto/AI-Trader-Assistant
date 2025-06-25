@@ -48,6 +48,9 @@ AI-Trader-Assistant/
 └── README.md               # Project overview (this file)
 
 
+---
+
+
 🚀 Installation
 Clone the repo:
 
@@ -62,6 +65,9 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
+
+
+---
 
 
 📦 Requirements
@@ -84,6 +90,9 @@ newspaper3k
 beautifulsoup4
 requests
 opencv-python
+
+
+---
 
 
 📩 Author
