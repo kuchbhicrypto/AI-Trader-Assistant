@@ -1,114 +1,111 @@
-# 🤖 AI-Trader-Assistant
+# 💹 AI-Trader-Assistant
 
-An AI-powered assistant for traders that predicts market moves using LSTM, Transformers, CNNs, and Ensemble Models.
-
-> 🔬 This project is being built in structured **phases**, each one adding a key intelligent module for smarter trading decisions.
+An intelligent trading assistant powered by AI, built to assist traders in making smarter and faster decisions using real-time market data, news, chart patterns, and technical indicators.
 
 ---
 
-## 📈 Features by Phase
+## 🚀 Project Overview
 
-### ✅ Phase 1: Trend Prediction (LSTM)
+This multi-phase AI model aims to simulate a smart trader's toolkit:
 
-- Predicts whether to **Buy**, **Sell**, or **Hold** a stock.
-- Uses historical price, RSI, MACD, and Volume.
-- Deep learning model: **LSTM (Long Short-Term Memory)**.
-
-### ✅ Phase 2: News Sentiment Analyzer (BERT)
-
-- Fetches latest news headlines using Google News RSS.
-- Uses **BERT** model to analyze sentiment (positive/negative).
-- Provides average sentiment score for each asset.
-
-### ✅ Phase 3: Chart Pattern Recognition (CNN)
-
-- Generates candlestick chart images.
-- Trains a **CNN (Convolutional Neural Network)** using **MobileNetV2** (transfer learning).
-- Detects classic chart patterns from image data.
-
-### ✅ Phase 4: Smart Indicator Fusion
-
-- Fuses multiple indicators: **RSI**, **MACD**, **Moving Averages**, **Bollinger Bands**, **Volatility**.
-- Ensemble model (LSTM + Random Forest – coming up next).
-- Provides market sentiment prediction with stronger reliability.
+- 📈 Predict price trends (LSTM)
+- 📰 Analyze market sentiment from news/Twitter
+- 📊 Detect candlestick chart patterns using CNN
+- 🔁 Fuse multiple technical indicators (RSI, MACD, Bollinger Bands, etc.)
+- 🐋 Detect unusual activity (whale moves, insider trades)
+- 📅 Predict impact of economic events
+- 🧠 Real-time pump detection from social media
+- 💼 Optimize portfolios based on predictions
 
 ---
 
-## 🗂️ Folder Structure
+## ✅ Phases Completed
 
-````bash
+| Phase | Feature                              | Status     |
+| ----- | ------------------------------------ | ---------- |
+| 1     | Trend Prediction (LSTM)              | ✅ Done    |
+| 2     | News Sentiment Analysis (BERT)       | ✅ Done    |
+| 3     | Pattern Recognition (CNN)            | ✅ Done    |
+| 4     | Indicator Fusion (RandomForest+LSTM) | 🛠️ Ongoing |
+| 5     | Whale/Big Order Detection            | ⏳ Coming  |
+| 6     | Economic Event Predictor             | ⏳ Coming  |
+| 7     | Twitter Pump Detection Bot           | ⏳ Coming  |
+| 8     | AI Portfolio Optimizer               | ⏳ Coming  |
+
+---
+
+## 📁 Folder Structure
+
 AI-Trader-Assistant/
-├── data/                   # Market data, news, pattern images
-│   ├── trend_data.csv
-│   ├── news_AAPL.csv
-│   └── pattern_images/
-├── models/                 # Saved models (LSTM, CNN, Scalers, etc.)
-├── scripts/                # All feature scripts (fetching, training, predicting)
-├── requirements.txt        # All Python dependencies
-└── README.md               # Project overview (this file)
-
+│
+├── data/ # Contains all generated datasets & images
+├── models/ # Trained ML/DL models saved here
+├── scripts/ # All feature scripts (fetch, train, predict)
+├── README.md # Project overview
 
 ---
 
+## 🧠 How to Use
 
-🚀 Installation
-Clone the repo:
+1. **Clone this repo**  
+   `git clone https://github.com/kuchbhicrypto/AI-Trader-Assistant.git`
 
-bash
-Copy
-Edit
-git clone https://github.com/kuchbhicrypto/AI-Trader-Assistant.git
-cd AI-Trader-Assistant
-Install dependencies:
+2. **Install dependencies**  
+   Create a `requirements.txt` like:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-
-
----
-
-
-📦 Requirements
-All Python packages used:
-
-makefile
-Copy
-Edit
 yfinance
 pandas
-numpy
-ta==0.11.0
+ta
+transformers
 tensorflow
 scikit-learn
-matplotlib
 mplfinance
-transformers
-torch
 newspaper3k
-beautifulsoup4
-requests
 opencv-python
 
+Then run:  
+`pip install -r requirements.txt`
+
+3. **Run any phase step-by-step**  
+   Example:
+
+python scripts/fetch_data.py
+python scripts/train_trend_model.py
+python scripts/predict_trend.py
 
 ---
 
+## 📸 Preview (Optional)
 
-📩 Author
-Made with ❤️ by @kuchbhicrypto
-For questions or contributions, feel free to open issues or submit a PR.
+> Add screenshots or sample predictions here for Phase 1–3 output.
 
 ---
 
-### ✅ What to do next:
+## 🛠️ Tech Stack
 
-- Save this content as `README.md` in your repo root.
-- Add your `requirements.txt` if not already done.
-- Commit and push:
+- Python 3.x
+- TensorFlow / Keras
+- HuggingFace Transformers
+- Scikit-learn
+- YFinance
+- TA-Lib
+- OpenCV
+- MobileNetV2 (Transfer Learning)
 
-```bash
-git add README.md requirements.txt
-git commit -m "Added README and requirements"
-git push origin main
-````
+---
+
+## 📜 License
+
+MIT License — feel free to use, modify, and contribute!
+
+---
+
+## 🙌 Contribution
+
+Found a bug? Have ideas? Feel free to [open an issue](https://github.com/kuchbhicrypto/AI-Trader-Assistant/issues) or submit a PR.
+
+---
+
+## 🔗 Connect
+
+Created with 💻 by [@kuchbhicrypto](https://github.com/kuchbhicrypto)
