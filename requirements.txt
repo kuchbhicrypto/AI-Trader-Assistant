@@ -1,20 +1,13 @@
-📦 Requirements
-All Python packages used:
-
-makefile
-Copy
-Edit
+streamlit
 yfinance
+ta
 pandas
 numpy
-ta==0.11.0
-tensorflow
-scikit-learn
 matplotlib
-mplfinance
+scikit-learn
+tensorflow
 transformers
-torch
-newspaper3k
+opencv-python
 beautifulsoup4
 requests
-opencv-python
+newspaper3k
